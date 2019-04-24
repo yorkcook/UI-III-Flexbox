@@ -66,8 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .navigation {
 	display: flex;
-	justify-content: space-around;
-	border: 1px solid black
+	justify-content: space-around;	
   }
   
   .navigation a {
@@ -101,7 +100,7 @@ h1, h2, h3, h4, h5 {
 	display: inline-block;
 	width: 49%;
 	margin: 1px;
-	padding: 75px 50px;
+	padding: 75px 50px;	
   }
   
   .middle-img {
@@ -110,11 +109,39 @@ h1, h2, h3, h4, h5 {
 	width: 1000px
   }
   
-  .bottom {
+.bottom-content {
+	display: flex;
+	flex-direction: row;
+}
+
+  .bottom1, .bottom2, .bottom3 {
+	width: 30%;
+	margin: 1px;
+	padding: 50px;
+  }
+
+  .contact-title {
+	display: inline-block;
+	width: 30%;
+	margin: 1px;
+	padding: 0px 50px;
+  }
+
+  .contact {
 	display: flex;
 	flex-direction: column;
-	/*display: inline-block;
-	/*width: 30%;
-	margin: 1px;
-	padding: 50px;*/
+	width: 140px;
+	height: 150px;
+	line-height: 2;
+	text-align: left;
+	display: block;
+	margin: 20px;
   }
+  
+  footer {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+  }
+  
+ 
