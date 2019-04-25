@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-around;	
+  }
+  
+  .navigation a {
+	margin: 20px
+  }
+  
+  .topimage {
+	display: inline-block;
+    margin: 50px;
+    padding: 0px 45px 50px;
+	width: 1500px
+  }
+
+  .services {
+      margin-bottom 50px;
+      padding: 15px;
+      /*background: red;*/
+  }
+
+  .boxes {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;   
+    padding: 50px 0;
+    display: flex;
+    /*align-content: space-between;
+    justify-content: space-between;*/
+    flex-wrap: wrap;
+  }
+
+  .boxes div {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    width: 45%;
+    padding: 20px;
+    margin: 10px;
+    background: rgb(168, 167, 167);
+    /*justify-content: space-around;*/
+  }
+
+  .boxes button {
+      /*background: red;*/
+      margin-top: 20px;
+      padding: 10px;
+      border-style: groove;
+      
+  }
+
+  .facts {
+      background: red;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-around;
+  }
+
+  .facts div {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+  }
+
+  .title {
+      display: block;
+  }
+
+  footer {
+      display: flex;
+      justify-content: center;
+  }
