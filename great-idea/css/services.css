@@ -63,7 +63,6 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .navigation {
 	display: flex;
 	justify-content: space-around;	
@@ -73,75 +72,67 @@ h1, h2, h3, h4, h5 {
 	margin: 20px
   }
   
-  
-  
-  .header {
-	display: flex;
-	justify-content:space-between;
-	padding: 50px;
-	font-size: 75px;
-	text-align: center;
-	
-  }
-  
-  .demand {
-	padding: 100px;
-	margin: 50px;
-  }
-  
-  button {
-	margin: 0px 0px 0px 200px;
+  .topimage {
 	display: inline-block;
-	padding: 8px 38px;  
-  }
-  
-  
-  .top {
-	display: inline-block;
-	width: 49%;
-	margin: 1px;
-	padding: 75px 50px;	
-  }
-  
-  .middle-img {
-	display: inline-block;
-	padding: 0px 45px 50px;
-	width: 1000px
-  }
-  
-.bottom-content {
-	display: flex;
-	flex-direction: row;
-}
-
-  .bottom1, .bottom2, .bottom3 {
-	width: 30%;
-	margin: 1px;
-	padding: 50px;
+    margin: 50px;
+    padding: 0px 45px 50px;
+	width: 1500px
   }
 
-  .contact-title {
-	display: inline-block;
-	width: 30%;
-	margin: 1px;
-	padding: 0px 50px;
+  .services {
+      margin-bottom 50px;
+      padding: 15px;
+      /*background: red;*/
   }
 
-  .contact {
-	display: flex;
-	flex-direction: column;
-	width: 140px;
-	height: 150px;
-	line-height: 2;
-	text-align: left;
-	display: block;
-	margin: 20px;
+  .boxes {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;   
+    padding: 50px 0;
+    display: flex;
+    /*align-content: space-between;
+    justify-content: space-between;*/
+    flex-wrap: wrap;
   }
-  
+
+  .boxes div {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    width: 45%;
+    padding: 20px;
+    margin: 10px;
+    background: rgb(168, 167, 167);
+    /*justify-content: space-around;*/
+  }
+
+  .boxes button {
+      /*background: red;*/
+      margin-top: 20px;
+      padding: 10px;
+      border-style: groove;
+      
+  }
+
+  .facts {
+      /*background: red;*/
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-around;
+  }
+
+  .facts div {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+  }
+
+  .title {
+      display: block;
+  }
+
   footer {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+      display: flex;
+      justify-content: center;
   }
-  
- 
